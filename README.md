@@ -15,11 +15,10 @@ https://github.com/Shougo/ddu.vim
 ## Configuration
 
 ```vim
-" Use the sorter.
-call ddu#custom#patch_global({
-    \   'sourceOptions': {
-    \     '_': {
-    \       'sorters': [
+call ddu#custom#patch_global(#{
+    \   sourceOptions: #{
+    \     _: #{
+    \       sorters: [
     \         'sorter_alpha',
     \       ],
     \     },

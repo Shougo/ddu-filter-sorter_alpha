@@ -29,11 +29,10 @@ https://github.com/vim-denops/denops.vim
 ==============================================================================
 EXAMPLES			*ddu-filter-sorter_alpha-examples*
 >
-	" Use the filter.
-	call ddu#custom#patch_global({
-	    \   'sourceOptions': {
-	    \     '_': {
-	    \       'sorters': [
+	call ddu#custom#patch_global(#{
+	    \   sourceOptions: #{
+	    \     _: #{
+	    \       sorters: [
 	    \         'sorter_alpha',
 	    \       ],
 	    \     },
