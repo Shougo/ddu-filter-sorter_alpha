@@ -14,7 +14,7 @@ Params			|ddu-filter-sorter_alpha-params|
 ==============================================================================
 INTRODUCTION		*ddu-filter-sorter_alpha-introduction*
 
-This converter sort items alphabetically.
+This sorter sorts items alphabetically.
 
 
 ==============================================================================
