@@ -12,7 +12,7 @@ export class Filter extends BaseFilter<Params> {
     items: DduItem[];
   }): Promise<DduItem[]> {
     return Promise.resolve(args.items.sort(
-      (a, b) => a.word.localeCompare(b.word),
+      (a, b) => (a.display ?? a.word).localeCompare((b.display ?? b.word)),
     ));
   }
 
