@@ -3,7 +3,7 @@
 Author: Shougo <Shougo.Matsu at gmail.com>
 License: MIT license
 
-CONTENTS				*ddu-filter-sorter_alpha*
+CONTENTS                                             *ddu-filter-sorter_alpha*
 
 Introduction		|ddu-filter-sorter_alpha-introduction|
 Install			|ddu-filter-sorter_alpha-install|
@@ -12,13 +12,13 @@ Params			|ddu-filter-sorter_alpha-params|
 
 
 ==============================================================================
-INTRODUCTION		*ddu-filter-sorter_alpha-introduction*
+INTRODUCTION                            *ddu-filter-sorter_alpha-introduction*
 
 This sorter sorts items alphabetically.
 
 
 ==============================================================================
-INSTALL				*ddu-filter-sorter_alpha-install*
+INSTALL                                      *ddu-filter-sorter_alpha-install*
 
 Please install both "ddu.vim" and "denops.vim".
 
@@ -27,7 +27,7 @@ https://github.com/vim-denops/denops.vim
 
 
 ==============================================================================
-EXAMPLES			*ddu-filter-sorter_alpha-examples*
+EXAMPLES                                    *ddu-filter-sorter_alpha-examples*
 >
 	call ddu#custom#patch_global(#{
 	    \   sourceOptions: #{
@@ -41,7 +41,7 @@ EXAMPLES			*ddu-filter-sorter_alpha-examples*
 <
 
 ==============================================================================
-PARAMS				*ddu-filter-sorter_alpha-params*
+PARAMS                                        *ddu-filter-sorter_alpha-params*
 
 
 ==============================================================================
