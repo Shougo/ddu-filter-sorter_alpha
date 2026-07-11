@@ -28,7 +28,7 @@ https://github.com/vim-denops/denops.vim
 
 ==============================================================================
 EXAMPLES                                    *ddu-filter-sorter_alpha-examples*
->
+>vim
 	call ddu#custom#patch_global(#{
 	    \   sourceOptions: #{
 	    \     _: #{
